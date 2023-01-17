@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* header pc */
+header {
+    position: sticky;
+    overflow: hidden;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    background-color: #fff;
+}
+header > .navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1rem;
+}
+
+header > .navbar .navbar_logo > a > img {
+    width: 100px;
+    height: 28px;
+}
+
+header > .navbar .navbar_menu {
+    display: flex;
+    padding-left: 0px;
+}
+header > .navbar .navbar_menu > li {
+}
+header > .navbar .navbar_menu > li > a {
+    font-weight: 700;
+    margin-right: 3rem;
+    color: #4d5159;
+}
+header > .navbar .navbar_menu > li > a:hover {
+    color: #868b94;
+}
+
+header > .navbar .navbar_search {
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+header > .navbar .navbar_search > input[type='text'] {
+    border-radius: 3px;
+    border: none;
+    background-color: #f2f3f6;
+    color: #212124;
+    width: 15rem;
+    height: 1rem;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+}
+header > .navbar .navbar_search > button {
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    color: #212124;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    width: 8rem;
+}
+header > .navbar .navbar_search > button:hover {
+    background-color: #f2f3f6;
+    color: #868b94;
+}
+header > .navbar > i {
+    font-size: x-large;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 11rem;
+}
+.navbar_togleBtn {
+    position: absolute;
+    right: 0;
+    font-size: x-large;
+    right: 1rem;
+    display: none;
+    color: #868b94;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar_search > input[type='text'] {
+        display: none;
+    }
+    header > .navbar > i {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar_logo > {
+        position: relative;
+        align-items: flex-start !important;
+    }
+    .navbar > .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar > .navbar_menu > li {
+        width: 100%;
+    }
+    header > .navbar > .navbar_search > button {
+        display: none;
+    }
+
+    header > .navbar i {
+        right: 3rem;
+    }
+    .navbar_togleBtn {
+        display: flex;
+    }
+}
