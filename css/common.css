@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
@@ -11,7 +11,7 @@ li {
 header {
     position: sticky;
     overflow: hidden;
-    width: 100%;
+    margin: 0;
     z-index: 100;
     top: 0;
     background-color: #fff;
@@ -21,7 +21,7 @@ header > .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     padding: 1rem 1rem;
 }
 
@@ -101,29 +101,41 @@ header > .navbar > i {
 }
 @media screen and (max-width: 768px) {
     .navbar {
+        padding: 1rem 0 !important;
         flex-direction: column;
         align-items: flex-start;
     }
-    .navbar_logo > {
-        position: relative;
-        align-items: flex-start !important;
+    .navbar_logo {
+        padding: 0 1rem;
     }
+
     .navbar > .navbar_menu {
         flex-direction: column;
-        align-items: center;
+        display: none !important;
         width: 100%;
     }
     .navbar > .navbar_menu > li {
         width: 100%;
+        padding: 1rem 1rem;
     }
+    .navbar > .navbar_menu > li:hover {
+        width: 100%;
+        background-color: #ced4da;
+    }
+
     header > .navbar > .navbar_search > button {
         display: none;
     }
 
     header > .navbar i {
         right: 3rem;
+        top: 20px;
     }
     .navbar_togleBtn {
         display: flex;
+        top: 20px;
+    }
+    .navbar_menu.active {
+        display: flex !important;
     }
 }
