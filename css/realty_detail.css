@@ -1,0 +1,202 @@
+/*  */
+
+.dg_realty_detailWrap {
+    padding-top: 9rem;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 76rem;
+}
+
+.dg_realty_detailWrap > article > .dg_pd_rollingWrap {
+    height: 46rem;
+    background: var(--common-inner-color);
+    border-radius: 1.4rem;
+    box-sizing: border-box;
+    background: url("../assets/img/realty_detail/thumbnail.jpeg") no-repeat
+        center center;
+    background-size: cover;
+}
+
+.dg_realty_detailWrap > article > .dg_pd_profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.dg_realty_detailWrap > article > .dg_pd_profile > .dg_pd_profile_left {
+    display: flex;
+    align-items: center;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_left
+    > .dg_pd_profileImg {
+    width: 5rem;
+    height: 5rem;
+    background: url(../assets/img/realty_detail/dg_pd_profileImg.png) no-repeat
+        center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_left
+    > .dg_pd_profile_left_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_right
+    > div
+    > .dg_pd_profile_temperature
+    > h4 {
+    color: var(--temperature-color);
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.dg_realty_detailWrap > article > .dg_pd_profile > .dg_pd_profile_right > div {
+    display: flex;
+    align-items: center;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_right
+    > div
+    > .dg_pd_profile_temperature
+    > .dg_pd_profile_temperature_lineWrap {
+    position: relative;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_right
+    > div
+    > .dg_pd_profile_temperature
+    > .dg_pd_profile_temperature_lineWrap
+    > div:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    z-index: 2;
+    height: 0.3rem;
+    background: var(--temperature-color);
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_right
+    > div
+    > .dg_pd_profile_temperature
+    > .dg_pd_profile_temperature_lineWrap
+    > div:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    height: 0.3rem;
+    background: #f7f7f7;
+}
+
+.dg_realty_detailWrap
+    > article
+    > .dg_pd_profile
+    > .dg_pd_profile_right
+    > div
+    > .dg_pd_profile_right_emoticon {
+    background: url(../assets/img/realty_detail/temperature_icon.png) no-repeat
+        center center;
+    background-size: contain;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 1rem;
+}
+
+.dg_realty_detailWrap > article > .dg_pd_profile > .dg_pd_profile_right > p {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary {
+    margin-bottom: 4rem;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary > .dg_pd_desc {
+    display: flex;
+    align-items: center;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary > .dg_pd_row01 > p:first-child {
+    padding: 0.5rem;
+    border: 0.1rem solid #000;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary > .dg_pd_row01 > p:last-child {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary > .dg_pd_row02 > h2 {
+    margin: 1rem 0;
+}
+
+.dg_realty_detailWrap > main > .dg_pd_summary > p {
+    color: #a7a7a7;
+}
+
+.dg_realty_detailWrap > main > ul > li > h3 {
+    margin: 5rem 0 3rem 0;
+}
+
+.dg_realty_detailWrap > main > ul > li > div > p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.dg_realty_detailWrap > main > ul > li > ul > li {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.dg_realty_detailWrap > main > ul > li > ul > li > p:first-child {
+    color: #a7a7a7;
+}
+
+.dg_realty_detailWrap > main > ul > li > ul > li > p {
+    width: 16rem;
+    font-size: 2rem;
+}
+
+.dg_realty_detailWrap > main > ul > li:last-child {
+    margin-bottom: 12rem;
+}
+
+.dg_realty_detailWrap > main > ul > li:last-child > div {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.dg_realty_detailWrap > main > ul > li:last-child > div > iframe {
+    width: 100%;
+    height: 24rem;
+}

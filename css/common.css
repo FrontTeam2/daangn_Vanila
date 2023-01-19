@@ -1,0 +1,249 @@
+html {
+    font-size: 62.5%;
+    letter-spacing: -0.1rem;
+}
+
+h1 {
+    font-size: 0;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h2 > span {
+    font-size: 2.4rem;
+    color: var(--brand-main-color);
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+a {
+    font-size: 1.8rem;
+}
+
+span {
+    font-size: 1.4rem;
+}
+
+hr {
+    border: none;
+    height: 0.1rem;
+    background: var(--common-line-color);
+    margin-bottom: 4rem;
+}
+
+/* 잠깐 */
+.index_page .bnr_title_img {
+    display: none;
+}
+
+/* 헤더 공통요소 */
+header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+header > .header_wrap {
+    width: 95%;
+    max-width: 118rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m_header {
+    display: none;
+}
+
+/* 헤더 콘텐츠 좌측요소 */
+
+header > .header_wrap > .header_left {
+    display: flex;
+    align-items: center;
+}
+
+header > .header_wrap > .header_left > h1 {
+    margin-right: 3.6rem;
+}
+
+header > .header_wrap > .header_left > h1 > a > img {
+    height: 2.8rem;
+}
+
+header > .header_wrap > .header_left > nav {
+    display: flex;
+    align-items: center;
+}
+
+header > .header_wrap > .header_left > nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+header > .header_wrap > .header_left > nav > ul > li {
+    margin-right: 3.6rem;
+    font-weight: bold;
+}
+
+header > .header_wrap > .header_left > nav > ul > li > a:hover {
+    color: #ccc;
+}
+
+header > .header_wrap > .header_left > nav > ul > li:last-child {
+    margin-right: 0;
+}
+
+/* 헤더 콘텐츠 우측요소 */
+header > .header_wrap > .header_right {
+    display: flex;
+    align-items: center;
+}
+
+header > .header_wrap > .header_right > input {
+    border: none;
+    border-radius: 0.5rem;
+    background: #eee;
+    box-sizing: border-box;
+    width: 28rem;
+    height: 3.8rem;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    text-indent: 1rem;
+    vertical-align: middle;
+}
+
+header > .header_wrap > .header_right > button {
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3.8rem;
+    font-size: 1.6rem;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fff;
+    border: 0.1rem solid #dedede;
+    font-weight: bold;
+}
+
+/* 푸터 공통요소 */
+footer > .footerWrap {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 76rem;
+    font-size: var(--desc-sub-size);
+    padding: 2rem 0;
+}
+
+footer > .footerWrap a {
+    font-size: var(--desc-sub-size);
+}
+
+/* 푸터 탑 콘텐츠 요소 */
+footer > .footerWrap > .footer_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+footer > .footerWrap > .footer_top > .footer_top_left {
+    display: flex;
+}
+footer > .footerWrap > .footer_top > .footer_top_left > ul {
+    margin-right: 4rem;
+}
+
+footer > .footerWrap > .footer_top > .footer_top_left > ul > li {
+    margin-bottom: 2rem;
+}
+
+footer > .footerWrap > .footer_top > .footer_top_right > .footer_top_right_app {
+    margin-top: 1rem;
+    display: flex;
+}
+
+footer
+    > .footerWrap
+    > .footer_top
+    > .footer_top_right
+    > .footer_top_right_app
+    > div {
+    width: 14rem;
+    height: 4rem;
+    background: var(--common-inner-color);
+    border-radius: 1rem;
+}
+
+footer
+    > .footerWrap
+    > .footer_top
+    > .footer_top_right
+    > .footer_top_right_app
+    > div:first-child {
+    margin-right: 1rem;
+}
+
+/* 푸터 바텀 콘텐츠 요소 */
+footer > .footerWrap > .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .footerWrap > .footer_bottom ul li a {
+    color: var(--common-sub-color);
+    font-weight: bold;
+}
+
+footer > .footerWrap > .footer_bottom > .footer_bottom_left > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}
+
+footer > .footerWrap > .footer_bottom > .footer_bottom_left > ul > li {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer
+    > .footerWrap
+    > .footer_bottom
+    > .footer_bottom_left
+    > ul
+    > li:last-child {
+    margin-right: 0;
+}
+
+footer
+    > .footerWrap
+    > .footer_bottom
+    > .footer_bottom_left
+    > .footer_bottom_left_comInfo
+    p {
+    color: var(--common-sub-color);
+    margin-bottom: 1rem;
+}
+
+footer
+    > .footerWrap
+    > .footer_bottom
+    > .footer_bottom_left
+    > .footer_bottom_left_comInfo
+    p
+    span {
+    font-weight: bold;
+}
