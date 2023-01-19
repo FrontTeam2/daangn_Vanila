@@ -54,7 +54,7 @@ header {
     position: fixed;
     width: 100%;
     background: #fff;
-
+    z-index: 9999gt;
     height: 6rem;
     display: flex;
     align-items: center;
