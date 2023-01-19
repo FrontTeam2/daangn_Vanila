@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px){
+    .realty_title{
+        font-size: 1.625rem;
+        margin: 3.75rem 0 2.5rem;
+    }
+
+    .realty_content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .realty_wrapper {
+        padding: 1.25rem 0;
+        flex-basis: 48%;
+    }
+    
+    .realty_01 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .img_wrapper {
+        min-width: 6.75rem;
+        min-height: 6.75rem;
+    }
+
+    .realty_img{
+        border-radius: 0.5rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content_title{
+        line-height: 1.32;
+        font-size: 1.125rem;
+    }
+
+    .content_address{
+        line-height: 1.4;
+        font-size: .875rem;
+    }
+
+    .content_price{
+        line-height: 1.36;
+        font-size: 1rem;
+    }
+}
+
+
