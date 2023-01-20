@@ -4,65 +4,297 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/common.css" />
         <title>당신 근처의 당근마켓</title>
-        <script
-            src="https://kit.fontawesome.com/4be700c864.js"
-            crossorigin="anonymous"
-        ></script>
-        <script src="./js/common.js" defer></script>
+
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/root.css" />
+        <link rel="stylesheet" href="./css/common.css" />
+        <link rel="stylesheet" href="./css/media.css" />
+
+        <link rel="shortcut icon" href="./assets/favicon/favicon.png" />
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div class="navbar_logo">
-                    <a href="index.html">
-                        <img src="./assets/img/daangn_logo.jpg" alt="" />
-                    </a>
+            <div class="header_wrap">
+                <div class="header_left">
+                    <h1>
+                        <a href=""
+                            ><img
+                                src="./assets/img/header/header_logo.png"
+                                alt=""
+                        /></a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="">중고거래</a></li>
+                            <li><a href="">동네가게</a></li>
+                            <li><a href="">알바</a></li>
+                            <li><a href="">부동산 직거래</a></li>
+                            <li><a href="">중고차 직거래</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <ul class="navbar_menu">
-                    <li><a href="">중고거래</a></li>
-                    <li><a href="">동네가게</a></li>
-                    <li><a href="">알바</a></li>
-                    <li><a href="">부동산 직거래</a></li>
-                    <li><a href="">중고차 직거래</a></li>
-                </ul>
-                <div class="navbar_search">
+                <div class="header_right">
+                    <div class="m_header_right">
+                        <div class="dg_searchbar"></div>
+                        <div class="dg_menu_itemWrap">
+                            <div class="dg_menu_item dg_menu_icon01"></div>
+                            <div class="dg_menu_item dg_menu_icon02"></div>
+                            <div class="dg_menu_item dg_menu_icon03"></div>
+                        </div>
+                    </div>
                     <input
                         type="text"
                         placeholder="물품이나 동네를 검색해보세요"
                     />
-
                     <button>채팅하기</button>
                 </div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <a href="#" class="navbar_togleBtn">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-            </nav>
+            </div>
         </header>
-        <main>
-            <p>3</p>
-            <p>3</p>
-            <p>3</p>
-            <p>3</p>
+        <main class="index_page">
+            <article>
+                <div class="index_bnrWrap">
+                    <div class="bnr_desc">
+                        <h1>당신 근처의 당근 마켓</h1>
+                        <!--섹션1 제목-->
+                        <p></p>
+                        <!--섹션1 내용-->
+                    </div>
+                    <div class="bnr_title_img bnr_thumbnail01">
+                        <img
+                            src="./assets/img/index/section01_bnr_image.png"
+                            alt=""
+                        />
+                    </div>
+                    <!--섹션1 이미지-->
+                </div>
+            </article>
+            <section>
+                <div>
+                    <div class="bnr_title_img bnr_thumbnail02">
+                        <img
+                            src="./assets/img/index/section02_bnr_image.png"
+                            alt=""
+                        />
+                    </div>
+                    <!--섹션2 이미지-->
+                    <div>
+                        <h1>우리 동네 중고 직거래 마켓</h1>
+                        <!--섹션2 제목-->
+                        <p></p>
+                        <!--섹션2 내용-->
+                    </div>
+                    <div>
+                        <a href=""></a
+                        ><!--섹션2 버튼1-->
+                        <a href=""></a
+                        ><!--섹션2 버튼2-->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div>
+                        <h1>이웃과 함께 하는 동네생활</h1>
+                        <!--섹션3 제목-->
+                        <p></p>
+                        <!--섹션3 내용-->
+                        <ul>
+                            <li>
+                                <div>
+                                    <img
+                                        src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-1-9226479b836cdc960291ffda91ace46c90a632f6cc868aa8983b3624e662a924.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <!--동네이야기 이미지1-->
+                                <div>우리동네질문</div>
+                                <!--동네이야기 제목1-->
+                                <div></div>
+                                <!--동네이야기 내용1-->
+                            </li>
+                            <li>
+                                <div>
+                                    <img
+                                        src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-2-208bb88cad31e335b40bc8ac5b7684dcf8a36d77ac50770a497a9c967a3bfc4f.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <!--동네이야기 이미지2-->
+                                <div>동네분실센터</div>
+                                <!--동네이야기 제목2-->
+                                <div></div>
+                                <!--동네이야기 내용2-->
+                            </li>
+                            <li>
+                                <div>
+                                    <img
+                                        src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-3-0a14d64c6101a7271655747d8401b9f71506578f8a4c0640608074e977bbc7c0.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <!--동네이야기 이미지3-->
+                                <div>동네모임</div>
+                                <!--동네이야기 제목3-->
+                                <div></div>
+                                <!--동네이야기 내용3-->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bnr_title_img bnr_thumbnail03">
+                        <img
+                            src="./assets/img/index/section03_bnr_image.png"
+                            alt=""
+                        />
+                    </div>
+                    <!--섹션3 이미지-->
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div class="bnr_title_img bnr_thumbnail04">
+                        <img
+                            src="./assets/img/index/section04_bnr_image.png"
+                            alt=""
+                        />
+                    </div>
+                    <!--섹션4 이미지-->
+                    <div>
+                        <h1>내 근처에서 찾는 동네가게</h1>
+                        <!--섹션4 제목-->
+                        <div></div>
+                        <!--섹션4 내용-->
+                        <a href=""></a
+                        ><!--섹션4 버튼-->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h1>중고거래 인기매물</h1>
+                    <!--섹션5 제목-->
+                    <div>
+                        <!--섹션5 내용-->
+                        <article>
+                            <!--매물1-->
+                            <a href="">
+                                <div></div>
+                                <!--매물1 이미지-->
+                                <div>
+                                    <h2>버버리패딩</h2>
+                                    <!--매물1 제목-->
+                                    <div>120,000원</div>
+                                    <!--매물1 가격-->
+                                    <div>경기도 용인시 기흥구 보정동</div>
+                                    <!--매물1 주소-->
+                                    <span>관심22∙채팅33</span
+                                    ><!--매물1 관심,채팅-->
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div>
+                        <a href="">인기매물 더보기</a>
+                    </div>
+                </div>
+                <div></div>
+                <!--섹션1 이미지-->
+            </section>
+            <section>
+                <div>
+                    <h3>중고거래 인기검색어</h3>
+                    <!--섹션6 제목-->
+                    <ul>
+                        <!--섹션6 내용-->
+                        <li><a href="">자전거</a></li>
+                        <li><a href="">의자</a></li>
+                        <li><a href="">아이폰</a></li>
+                        <li><a href="">냉장고</a></li>
+                        <li><a href="">노트북</a></li>
+                        <li><a href="">패딩</a></li>
+                        <li><a href="">아이패드</a></li>
+                        <li><a href="">모니터</a></li>
+                        <li><a href="">스터벅스</a></li>
+                        <li><a href="">책상</a></li>
+                    </ul>
+                </div>
+            </section>
         </main>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
-        <p>3</p>
+
+        <footer>
+            <div class="footerWrap">
+                <div class="footer_top">
+                    <div class="footer_top_left">
+                        <ul>
+                            <li><a href="">중고거래</a></li>
+                            <li><a href="">동네가게</a></li>
+                            <li><a href="">당근알바</a></li>
+                            <li><a href="">부동산 직거래</a></li>
+                            <li><a href="">중고차 직거래</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">당근비즈니스</a></li>
+                            <li><a href="">채팅하기</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">자주 묻는 질문</a></li>
+                            <li><a href="">회사 소개</a></li>
+                            <li><a href="">인재 채용</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_top_right">
+                        <p><b>당근마켓 앱 다운로드</b></p>
+                        <div class="footer_top_right_app">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="footer_bottom">
+                    <div class="footer_bottom_left">
+                        <div class="footer_bottom_left_comInfo">
+                            <p><span>대표 </span>김용현, 황도연</p>
+                            <p>
+                                <span>직업정보제공사업 신고번호 </span
+                                >2016-서울서초-0051
+                            </p>
+                            <p>
+                                <span>주소 </span>서울특별시 구로구 디지털로
+                                30길 28, 609호 (당근서비스)
+                            </p>
+                            <p><span>전화 </span>1544-9796</p>
+                        </div>
+                        <ul>
+                            <li><a href="">제휴 문의</a></li>
+                            <li><a href="">광고 문의</a></li>
+                            <li><a href="">PR 문의</a></li>
+                            <li><a href="">IR 문의</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">개인정보처리방침</a></li>
+                            <li><a href="">위치기반서비스 이용약관</a></li>
+                            <li><a href="">이용자보호 비전과 계획</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom_right">
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                        <select name="" id="">
+                            <option value="">한국</option>
+                            <option value="">영국</option>
+                            <option value="">캐나다</option>
+                            <option value="">미국</option>
+                            <option value="">일본</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
