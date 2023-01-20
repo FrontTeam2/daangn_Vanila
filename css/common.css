@@ -128,6 +128,7 @@ header > .header_wrap > .header_right > input {
     margin-right: 1rem;
     text-indent: 1rem;
     vertical-align: middle;
+    outline: none;
 }
 
 header > .header_wrap > .header_right > button {
