@@ -4,7 +4,7 @@
 }
 
 .index_page > section {
-    height: 80vh;
+    height: 70vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -22,25 +22,29 @@
 }
 
 .index_page > section .bnr_title_img > img {
-    height: 68rem;
+    height: 60rem;
 }
 
 .index_page > section > .index_bnrWrap {
+    position: relative;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
 }
-
+.index_page > section > .index_bnrWrap > .bnr_desc {
+    width: 40%;
+}
 .index_page > section:first-child {
     background: #fbf7f2;
 }
 
 .index_page > section:first-child > .index_bnrWrap > .bnr_title_img {
-    position: relative;
-    left: 11rem;
-    top: 3rem;
+    position: absolute;
+    right: -10rem;
+    bottom: 0;
 }
 
 .index_page
@@ -63,6 +67,24 @@
     background: var(--common-line-color);
     border-radius: 0.5rem;
     margin-right: 2rem;
+}
+
+.index_page
+    > section:nth-child(2)
+    > .index_bnrWrap
+    > .banner02_wrap
+    > .banner02_button
+    > a:last-child {
+    margin-right: 0;
+}
+
+.index_page
+    > section:nth-child(2)
+    > .index_bnrWrap
+    > .banner02_wrap
+    > .banner02_button
+    > a:hover {
+    background: var(--common-inner-color);
 }
 
 .index_page > section:nth-child(3) {
@@ -100,4 +122,141 @@
     > div:nth-child(3) {
     font-size: var(--common-context-size);
     line-height: 2.2rem;
+}
+
+.index_page > section:nth-child(4) > .index_bnrWrap > div:last-child > div {
+    margin-top: 4rem;
+}
+
+.index_page > section:nth-child(4) > .index_bnrWrap > div:last-child > div > a {
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    background: var(--common-line-color);
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+}
+
+.index_page
+    > section:nth-child(4)
+    .index_bnrWrap
+    > div:last-child
+    > div
+    > a:hover {
+    background: var(--common-inner-color);
+}
+
+.dg_best_trade {
+    background: #f8f9fa;
+    padding: 12rem 0;
+}
+
+.dg_best_trade > section {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 118rem;
+}
+
+.dg_best_trade > section h1 {
+    font-size: 4.4rem;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.dg_best_trade > section > div > .bg_best_trade_list > section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+
+.dg_best_trade
+    > section
+    > div
+    > .bg_best_trade_list
+    > section
+    > a
+    > .dg_best_trade_item {
+    background: url("../assets/img/index/dg_best_trade_item.jpg") no-repeat
+        center center;
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.dg_best_trade
+    > section
+    > div
+    > .bg_best_trade_list
+    > section
+    > a
+    > div:last-child {
+    margin-top: 2rem;
+}
+
+.dg_best_trade
+    > section
+    > div
+    > .bg_best_trade_list
+    > section
+    > a
+    > div:last-child
+    p {
+    font-size: 1.6rem;
+}
+
+.dg_best_trade
+    > section
+    > div
+    > .bg_best_trade_list
+    > section
+    > a
+    > div:last-child
+    div {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.dg_best_trade
+    > section
+    > div
+    > .bg_best_trade_list
+    > section
+    > a
+    > div:last-child
+    span {
+    color: var(--common-sub-color);
+}
+
+.dg_best_trade > section > div > div:last-child {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.dg_best_trade > section > div > div:last-child > a {
+    text-decoration: underline;
+}
+
+.index_aside {
+    padding: 6rem 0;
+}
+
+.index_aside > div {
+    width: 80%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.index_aside > div > a {
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.index_aside > div > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
