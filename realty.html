@@ -15,10 +15,46 @@
         <link rel="shortcut icon" href="./assets/favicon/favicon.png" />
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="header_wrap">
+                <div class="header_left">
+                    <h1>
+                        <a href=""
+                            ><img
+                                src="./assets/img/header/header_logo.png"
+                                alt=""
+                        /></a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="">중고거래</a></li>
+                            <li><a href="">동네가게</a></li>
+                            <li><a href="">알바</a></li>
+                            <li><a href="">부동산 직거래</a></li>
+                            <li><a href="">중고차 직거래</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header_right">
+                    <div class="m_header_right">
+                        <div class="dg_searchbar"></div>
+                        <div class="dg_menu_itemWrap">
+                            <div class="dg_menu_item dg_menu_icon01"></div>
+                            <div class="dg_menu_item dg_menu_icon02"></div>
+                            <div class="dg_menu_item dg_menu_icon03"></div>
+                        </div>
+                    </div>
+                    <input
+                        type="text"
+                        placeholder="물품이나 동네를 검색해보세요"
+                    />
+                    <button>채팅하기</button>
+                </div>
+            </div>
+        </header>
 
-        <main>
-            <section>
+        <main class="main">
+            <section class="banner">
                 <!--배너-->
                 <div>
                     <div>
@@ -31,17 +67,20 @@
                     <!--배너 이미지-->
                 </div>
             </section>
-            <section>
+            <section class="section_02">
                 <h2 class="realty_title">인기 부동산 직거래 게시글</h2>
                 <!--제목-->
                 <div class="realty_content">
                     <!--내용-->
+                    
                     <div class="realty_wrapper">
                         <!--매물1-->
                         <a href="#">
                             <article class="realty_01">
                                 <div class="img_wrapper">
-                                    <img src="https://dnvefa72aowie.cloudfront.net/realty/realty/articles/64c72dedbb25e018123c23a1fe2ed0597f6a4f7fd0e086fcd58d65e12818423b_1661987156388.jpeg?q=95&s=1440x1440&t=inside" alt="" class="relaty_img">
+                                    <span class="img_wrapper2">
+                                        <img src="https://dnvefa72aowie.cloudfront.net/realty/realty/articles/64c72dedbb25e018123c23a1fe2ed0597f6a4f7fd0e086fcd58d65e12818423b_1661987156388.jpeg?q=95&s=1440x1440&t=inside" class="realty_img">
+                                    </span>
                                 </div>
                                 <div class="content_wrapper">
                                     <div class="content_title">
@@ -56,21 +95,29 @@
                             </article>
                         </a>
                     </div>
-                    <div>
-                        <!--매물2-->
-                        <a href="">
-                            <article>
-                                <div></div>
-                                <div>
-                                    <div>
+
+                    <div class="realty_wrapper">
+                        <!--매물1-->
+                        <a href="#">
+                            <article class="realty_01">
+                                <div class="img_wrapper">
+                                    <span class="img_wrapper2">
+                                        <img src="https://dnvefa72aowie.cloudfront.net/realty/realty/articles/acfb317c1b8a692b60920aae5776d3fd92c7a2dec564051e003ff5f0b6f64209_1662040154700.jpeg?q=95&s=1440x1440&t=inside" class="realty_img">
+                                    </span>
+                                </div>
+                                <div class="content_wrapper">
+                                    <div class="content_title">
                                         아파트 1억 9,100만원 - 전라남도 목포시
-                                        석현동
                                     </div>
-                                    <div>매매 1억 9,100</div>
+                                    <!--매물1 제목-->
+                                    <div class="content_address">석현동</div>
+                                    <div class="content_price">매매 1억 9,100</div>
+                                    <!--매물1 가격-->
                                 </div>
                             </article>
                         </a>
                     </div>
+                    
                     <!--...-->
                     <div>
                         <!--중간배너-->
